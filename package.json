@@ -24,6 +24,8 @@
     "@mantine/hooks": "8.0.1",
     "@next/bundle-analyzer": "^15.2.3",
     "@tabler/icons-react": "^3.31.0",
+    "clsx": "^2.1.1",
+    "mantine-datatable": "^7.17.1",
     "next": "15.2.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
@@ -40,6 +42,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@types/eslint-plugin-jsx-a11y": "^6",
     "@types/jest": "^29.5.14",
+    "@types/lodash": "^4.17.17",
     "@types/node": "^22.13.11",
     "@types/react": "19.0.12",
     "babel-loader": "^10.0.0",
