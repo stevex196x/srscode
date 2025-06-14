@@ -1,5 +1,5 @@
 {
-  "name": "mantine-next-template",
+  "name": "SRScode",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
+    "@auth/pg-adapter": "^1.9.1",
     "@mantine/core": "8.0.1",
     "@mantine/hooks": "8.0.1",
     "@next/bundle-analyzer": "^15.2.3",
@@ -27,8 +28,13 @@
     "clsx": "^2.1.1",
     "mantine-datatable": "^7.17.1",
     "next": "15.2.3",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^7.0.3",
+    "pg": "^8.16.0",
+    "postgres": "^3.4.7",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "ts-fsrs": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
@@ -44,6 +50,7 @@
     "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.17",
     "@types/node": "^22.13.11",
+    "@types/pg": "^8",
     "@types/react": "19.0.12",
     "babel-loader": "^10.0.0",
     "eslint": "^9.23.0",

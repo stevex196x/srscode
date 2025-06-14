@@ -5,7 +5,9 @@ import {
   AppShellHeader,
   AppShellMain,
   AppShellNavbar,
+  Box,
   Burger,
+  Button,
   Group,
   Title,
 } from '@mantine/core';
@@ -30,6 +32,9 @@ export function ClientShell({ children }: { children: any }) {
           <Burger opened={mobileOpened} onClick={toggleMobile} hiddenFrom="sm" size="sm" />
           <Burger opened={desktopOpened} onClick={toggleDesktop} visibleFrom="sm" size="sm" />
           <Title>SRScode</Title>
+          <Box style={{ marginLeft: 'auto', marginRight: 0 }}>
+            <Button>Login</Button>
+          </Box>
         </Group>
       </AppShellHeader>
       <AppShellNavbar p="md">

@@ -6,8 +6,8 @@ import { ClientShell } from '@/components/ClientShell/ClientShell';
 import { theme } from '../theme';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
+  title: 'SRScode',
+  description: 'SRScode is a space repetition system for software engineering interview questions.',
 };
 
 export default function RootLayout({ children }: { children: any }) {
